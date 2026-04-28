@@ -212,6 +212,16 @@ Planned upgrades:
 - Smart Expense Analysis  
 
 ---
+## Developed By
+Barath K
+Kotapati KavyaSree
+
+---
+
+## Final Note
+This is not just a college DBMS project — it is a practical SaaS solution that can genuinely help thousands of small business owners move from paper records to smart digital management.
+
+---
 
 ## Repository Structure
 
@@ -222,10 +232,4 @@ sql/        Schema + Seed files
 scripts/    Setup scripts
 vercel.json Deployment config
 
-## Developed By
-Barath K
-Kotapati KavyaSree
 
-
-## Final Note
-This is not just a college DBMS project — it is a practical SaaS solution that can genuinely help thousands of small business owners move from paper records to smart digital management.
