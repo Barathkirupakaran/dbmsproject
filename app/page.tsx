@@ -14,7 +14,7 @@ import type { ColumnDefinition, EntityDefinition } from "@/lib/types";
 type GenericRow = Record<string, unknown>;
 
 type UiLang = "en" | "ta" | "hi" | "te" | "ml";
-type ThemeName = "sunrise" | "forest" | "classic";
+type ThemeName = "sunrise" | "forest" | "classic" | "night";
 type FontScale = "small" | "normal" | "large";
 
 interface MetaResponse {
@@ -99,7 +99,8 @@ const APP_LANG_OPTIONS: Array<{ code: UiLang; label: string; speechLang: string 
 const THEME_OPTIONS: Array<{ code: ThemeName; label: string }> = [
   { code: "sunrise", label: "Sunrise" },
   { code: "forest", label: "Forest" },
-  { code: "classic", label: "Classic" }
+  { code: "classic", label: "Classic" },
+  { code: "night", label: "Night" }
 ];
 
 const FONT_SCALE_OPTIONS: Array<{ code: FontScale; label: string }> = [
